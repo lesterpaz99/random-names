@@ -1,7 +1,7 @@
 {
   "name": "obed-random-names",
   "version": "1.0.0",
-  "description": "Random de nombres españoles",
+  "description": "Random de nombres españolesThis is a package that generates and provides you a spanish person name for either a boy or a girl.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
