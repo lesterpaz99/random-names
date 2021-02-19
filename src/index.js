@@ -102,3 +102,9 @@ const names = [
 	'CRISTIAN',	'ISABELLA' 
 ];
 
+const generateNames = () => {
+    let name = Math.floor(Math.random() * names.length);
+    console.log(names[name]);
+}
+
+generateNames();
