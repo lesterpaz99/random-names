@@ -15,7 +15,15 @@
   "author": "Obed Paz <lesterpaz99@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-names": "./bin/global.js"
+    "random-names": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lesterpaz99/random-names.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lesterpaz99/random-names/issues"
+  },
+  "homepage": "https://github.com/lesterpaz99/random-names#readme"
 }
