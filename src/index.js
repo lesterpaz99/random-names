@@ -99,7 +99,8 @@ const names = [
     'TEO',	'AMAIA',
     'MAURO',	'AYA',
 	'OSCAR', 'SALMA',
-	'CRISTIAN',	'ISABELLA' 
+	'CRISTIAN',	'ISABELLA',
+    'OBED', 'KATHERINE'
 ];
 
 const generateNames = () => {
@@ -107,4 +108,4 @@ const generateNames = () => {
     console.log(names[name]);
 }
 
-generateNames();
+module.exports = { generateNames };
