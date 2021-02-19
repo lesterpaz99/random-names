@@ -1,10 +1,11 @@
 {
-  "name": "random-names",
+  "name": "obed-random-names",
   "version": "1.0.0",
   "description": "Random de nombres españoles",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "keywords": [
     "javascript",
@@ -12,5 +13,9 @@
     "npm"
   ],
   "author": "Obed Paz <lesterpaz99@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "random-names": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
